@@ -1,4 +1,4 @@
-FROM node:10-alpine
+FROM node:10.15.0
 
 # Installs latest Chromium (71) package.
 RUN apk update && apk upgrade && \
