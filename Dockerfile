@@ -21,4 +21,4 @@ ENV PUPPETEER_SKIP_CHROMIUM_DOWNLOAD true
 RUN yarn add puppeteer@1.9.0
 
 ENTRYPOINT ["dumb-init", "--"]
-CMD ["google-chrome"]
+CMD ["google-chrome-stable --no-sanbox"]
