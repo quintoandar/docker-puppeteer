@@ -1,3 +1,3 @@
 # docker-puppeteer
 
-Node 10.15 image with [puppeteer](https://github.com/GoogleChrome/puppeteer).
+Node 12.16.2 image with [puppeteer](https://github.com/GoogleChrome/puppeteer).
